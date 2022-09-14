@@ -1,116 +1,246 @@
-.container {
-  padding: 0 2rem;
+.wrapperHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+    align-items: center;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.wrapperHeader h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    color: #2C3136;
+    margin: 24px 0;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.wrapperHeader .midHeader {
+    display: flex;
+    gap: 56px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.wrapperHeader .midHeader .midHeaderItem {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #838486;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.wrapperHeader .midHeader .midHeaderItem:hover {
+    color: #128FE1;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.wrapperHeader .midHeader .active {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #128FE1;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.wrapperHeader button {
+    min-width: 184px;
+    border-radius: 4px;
+    height: 40px;
+    padding: 12px 0;
+    background-color: #128FE1;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: unset;
 }
 
-.title,
-.description {
-  text-align: center;
+.wrapperHeader button:hover {
+    background-color: #0E6BA9;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.wrapperHeader button:active {
+    background-color: #094871;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+/* Hero */
+
+.wrapperHero {
+    position: relative;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.wrapperBackground .patternLeft {
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: -50px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.wrapperBackground .patternMid {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, 0);
+    left: 50%;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.wrapperHeroDescription {
+    display: flex;
+    gap: 40px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.wrapperHeroDescription .HeroProfile {
+    z-index: 2;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.wrapperHeroDescription .HeroProfile img {
+    margin-top: 75px;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.wrapperHeroDescription .HeroSkill {
+    margin-top: 84px;
+    z-index: 2;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+.wrapperHeroDescription .HeroSkill .HeroSkillImg {
+    margin-bottom: 92px;
+    max-width: 180px;
+    position: relative;
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg p {
+    display: none;
+    position: absolute;
+    left: 50%;
+    padding: 4px 12px;
+    background-color: #FFFFFF;
+    color: #2C3136;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    transition: opacity .6s;
+    filter: drop-shadow(0px 12px 40px rgba(74, 81, 89, 0.11));
+    transform: translate(-50%, 0);
+    margin: 44px 0;
+    white-space: nowrap;
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg p::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #FFFFFF transparent;
+    filter: drop-shadow(0px 12px 40px rgba(74, 81, 89, 0.11));
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg:hover p {
+    display: block;
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg img {
+    width: 180px;
+    height: 136px;
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg img:hover {
+    transform: scale(1.5);
+}
+
+.wrapperHeroDescription .HeroSkill .HeroSkillImg:nth-child(2) {
+    margin-left: 234px;
+}
+
+.HeroDescription {
+    margin-top: 200px;
+    max-width: 380px;
+    z-index: 2;
+    display: flex;
     flex-direction: column;
-  }
+    justify-content: space-between;
+}
+
+.HeroDescription h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    color: #4A5159;
+}
+
+.HeroDescription h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    color: #2C3136;
+}
+
+.HeroDescription p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 16px 0;
+    color: #73777A;
+}
+
+/* social media */
+
+.wrapperSocialMedia {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 116px;
+}
+
+.wrapperSocialMedia .socialMedia {
+    background-color: #FFFFFF;
+    border: unset;
+    padding: 12px;
+    border-radius: 4px;
+    max-width: 44px;
+    max-height: 44px;
+    position: relative;
+}
+
+.wrapperSocialMedia .socialMedia:hover {
+    background-color: #128FE1;
+}
+
+.wrapperSocialMedia .socialMedia:hover svg path {
+    fill: #FFFFFF;
+}
+
+.wrapperSocialMedia .socialMedia:hover span {
+    display: block;
+}
+
+.wrapperSocialMedia .socialMedia span {
+    display: none;
+    position: absolute;
+    left: 50%;
+    padding: 4px 12px;
+    background-color: #FFFFFF;
+    color: #2C3136;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    transition: opacity .6s;
+    filter: drop-shadow(0px 12px 40px rgba(74, 81, 89, 0.11));
+    transform: translate(-50%, 0);
+    margin: 44px 0;
+    white-space: nowrap;
+    bottom: 20%;
+    font-size: 12px;
+}
+
+.wrapperSocialMedia .socialMedia span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FFFFFF transparent transparent transparent;
+    filter: drop-shadow(0px 12px 40px rgba(74, 81, 89, 0.11));
 }
