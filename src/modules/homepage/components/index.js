@@ -1,11 +1,12 @@
-import Header from "./header";
-import Hero from "./hero";
+import Layout from "../../layout";
+import Hero from './hero';
 
 const LayoutHomepage = () => {
     return (
         <div>
-            <Header />
-            <Hero />
+            <Layout>
+                <Hero />
+            </Layout>
         </div>
     )
 }
