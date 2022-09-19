@@ -1,0 +1,16 @@
+.wrapperFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 110px;
+    padding: 34px 0;
+    height: 92px;
+}
+
+.wrapperFooter span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+}

@@ -2,6 +2,8 @@
 
 .wrapperHero {
     position: relative;
+    background-color: #F0F4F7;
+    padding-top: 84px;
 }
 
 .wrapperBackground .patternLeft {
@@ -21,6 +23,7 @@
 .wrapperHeroDescription {
     display: flex;
     gap: 40px;
+    margin: 0 110px;
 }
 
 .wrapperHeroDescription .HeroProfile {
@@ -29,6 +32,7 @@
 
 .wrapperHeroDescription .HeroProfile img {
     margin-top: 75px;
+    width: 100%;
 }
 
 .wrapperHeroDescription .HeroSkill {
@@ -90,6 +94,7 @@
 
 .HeroDescription {
     margin-top: 200px;
+    margin-bottom: 116px;
     max-width: 380px;
     z-index: 2;
     display: flex;

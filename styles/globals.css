@@ -3,11 +3,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #F0F4F7;
-}
-
-body {
-  margin: 0 110px;
 }
 
 a {
@@ -17,4 +12,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.change-background {
+  background-color: #FFFFFF;
 }

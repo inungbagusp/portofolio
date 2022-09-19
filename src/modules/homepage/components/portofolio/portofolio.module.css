@@ -1,0 +1,91 @@
+.wrapperPortofolio {
+    margin: 140px 110px;
+}
+
+.wrapperHeaderPortofolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.wrapperHeaderPortofolio p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.21px;
+    color: #73777A;
+}
+
+.wrapperTitlePortofolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperTitlePortofolio h1 {
+    margin: 0 auto 0 0;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+}
+
+.wrapperTitlePortofolio a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapperContentPortofolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperContent {
+    margin-bottom: 80px;
+}
+
+.wrapperContent h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+    margin: 20px 0 0 0;
+}
+
+.wrapperContent p {
+    max-width: 570px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+    margin: 8px 0 0 0;
+}
+
+.wrapperAboutMe {
+    display: flex;
+    gap: 40px;
+}
+
+.wrapperAboutMe h1 {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 92px;
+    letter-spacing: 0.5px;
+    color: #2C3136;
+    margin: 0;
+    width: 485px;
+}
+
+.wrapperAboutMe p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+    margin: 0 0 40px 0;
+}
