@@ -6,12 +6,12 @@ const Portofolio = () => {
     return (
         <div className={styles.wrapperPortofolio}>
             <div className={styles.wrapperHeaderPortofolio}>
-                <p>our portofolio</p>
+                <p>Our portofolio</p>
                 <div className={styles.wrapperTitlePortofolio}>
                     <h1>Our latest cool project.</h1>
                     <Link href='/experience' as='/experience'>
                         <a>
-                            <span>show all</span>
+                            <span>Show all</span>
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M18 6L16.57 7.393L24.15 15H4V17H24.15L16.57 24.573L18 26L28 16L18 6Z" fill="#2C3136"/>
                             </svg>

@@ -45,7 +45,7 @@ const Header = () => {
                     </a>
                 </Link>
             </div>
-            <button type="button">Contact Me</button>
+            <button type="button">Contact me</button>
         </div>
     )
 }

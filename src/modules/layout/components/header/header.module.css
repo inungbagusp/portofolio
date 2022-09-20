@@ -47,12 +47,12 @@
     min-width: 184px;
     border-radius: 4px;
     height: 40px;
-    padding: 12px 0;
     background-color: #128FE1;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
     border: unset;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .wrapperHeader button:hover {
