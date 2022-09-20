@@ -24,9 +24,9 @@ const Hero = () => {
                 </div>
                 <div className={styles.HeroProfile}><img src="/img/me.png" alt="hero" /></div>
                 <div className={styles.HeroSkill}>
-                    <div className={styles.HeroSkillImg}><img src="/img/skill1.svg" alt="skill1" /><p>React JS Developer</p></div>
-                    <div className={styles.HeroSkillImg}><img src="/img/skill2.svg" alt="skill2" /><p>PWA</p></div>
-                    <div className={styles.HeroSkillImg}><img src="/img/skill3.svg" alt="skill3" /><p>Javascript</p></div>
+                    <div className={styles.HeroSkillImg}><img src="/img/skill-react.svg" alt="skill1" /><p>React JS Developer</p></div>
+                    <div className={styles.HeroSkillImg}><img src="/img/skill-pwa.svg" alt="skill2" /><p>PWA</p></div>
+                    <div className={styles.HeroSkillImg}><img src="/img/skill-js.svg" alt="skill3" /><p>Javascript</p></div>
                 </div>
             </div>
         </div>

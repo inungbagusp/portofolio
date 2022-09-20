@@ -4,7 +4,7 @@ import SocialMedia from '../../../common/socialMedia';
 const Footer = () => {
     return (
         <div className={styles.wrapperFooter}>
-            <span>© 2022 Meguaire. All Rights Reserved.</span>
+            <span>© 2022 inungbp. All Rights Reserved.</span>
             <SocialMedia />
         </div>
     );
