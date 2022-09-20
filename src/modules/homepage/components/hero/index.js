@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
                     <SocialMedia />
                 </div>
-                <div className={styles.HeroProfile}><img src="/img/me.svg" alt="hero" /></div>
+                <div className={styles.HeroProfile}><img src="/img/me-hero.svg" alt="hero" /></div>
                 <div className={styles.HeroSkill}>
                     <div className={styles.HeroSkillImg}><img src="/img/skill-react.png" alt="skill1" /><p>React JS Developer</p></div>
                     <div className={styles.HeroSkillImg}><img src="/img/skill-pwa.png" alt="skill2" /><p>PWA</p></div>
