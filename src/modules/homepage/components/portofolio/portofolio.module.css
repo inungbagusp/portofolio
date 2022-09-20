@@ -1,5 +1,5 @@
 .wrapperPortofolio {
-    margin: 140px 110px;
+    margin: 180px 110px;
 }
 
 .wrapperHeaderPortofolio {
@@ -59,10 +59,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
+    gap: 80px;
 }
 
 .wrapperContent {
     margin-bottom: 80px;
+    max-width: 570px;
+}
+
+.wrapperContent img {
+    width: 100%;
 }
 
 .wrapperContent h3 {
