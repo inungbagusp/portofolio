@@ -22,24 +22,24 @@ const Portofolio = () => {
             <div className={styles.wrapperContentPortofolio}>
                 <div className={styles.wrapperLeftContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/senheng.svg" alt="senheng" />
+                        <img src="/img/senheng.png" alt="senheng" />
                         <h3>Senheng</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bodypack.svg" alt="bodypack" />
+                        <img src="/img/bodypack.png" alt="bodypack" />
                         <h3>BodyPack</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
                 <div className={styles.wrapperRightContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/guardian.svg" alt="guardian" />
+                        <img src="/img/guardian.png" alt="guardian" />
                         <h3>Guardian Indonesia</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bigi.svg" alt="bigi" />
+                        <img src="/img/bigi.png" alt="bigi" />
                         <h3>Bigi.id</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>

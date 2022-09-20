@@ -1,0 +1,89 @@
+.wrapperPortofolio {
+    margin: 0 110px;
+    padding-top: 200px;
+}
+
+.wrapperHeaderPortofolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.wrapperHeaderPortofolio p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.21px;
+    color: #73777A;
+}
+
+.wrapperTitlePortofolio {
+    max-width: 695px;
+}
+
+.wrapperTitlePortofolio h1 {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+    margin: 0 0 8px 0;
+}
+
+.wrapperTitlePortofolio p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+}
+
+.wrapperTitlePortofolio a:hover,
+.wrapperTitlePortofolio a:hover path {
+    color: #128FE1;
+    fill: #128FE1;
+}
+
+.wrapperTitlePortofolio a:active,
+.wrapperTitlePortofolio a:active path {
+    color: #094871;
+    fill: #094871;
+}
+
+.wrapperContentPortofolio {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+
+.wrapperContent {
+    margin-bottom: 80px;
+    max-width: 570px;
+}
+
+.wrapperContent img {
+    width: 100%;
+}
+
+.wrapperContent h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+    margin: 20px 0 0 0;
+}
+
+.wrapperContent p {
+    max-width: 570px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+    margin: 8px 0 0 0;
+}

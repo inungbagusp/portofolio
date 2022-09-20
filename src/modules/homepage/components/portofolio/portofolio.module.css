@@ -1,12 +1,12 @@
 .wrapperPortofolio {
-    margin: 140px 110px;
+    margin: 180px 110px;
 }
 
 .wrapperHeaderPortofolio {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .wrapperHeaderPortofolio p {
@@ -35,16 +35,40 @@
 .wrapperTitlePortofolio a {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+}
+
+.wrapperTitlePortofolio a:hover,
+.wrapperTitlePortofolio a:hover path {
+    color: #128FE1;
+    fill: #128FE1;
+}
+
+.wrapperTitlePortofolio a:active,
+.wrapperTitlePortofolio a:active path {
+    color: #094871;
+    fill: #094871;
 }
 
 .wrapperContentPortofolio {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 80px;
 }
 
 .wrapperContent {
     margin-bottom: 80px;
+    max-width: 570px;
+}
+
+.wrapperContent img {
+    width: 100%;
 }
 
 .wrapperContent h3 {
@@ -60,7 +84,7 @@
     max-width: 570px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     letter-spacing: 0.2px;
     color: #73777A;
     margin: 8px 0 0 0;
@@ -84,7 +108,7 @@
 .wrapperAboutMe p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 36px;
+    line-height: 28px;
     letter-spacing: 0.2px;
     color: #73777A;
     margin: 0 0 40px 0;

@@ -1,0 +1,53 @@
+.wrapperProfileView {
+    margin: 0 110px 200px 110px;
+    padding-top: 200px;
+    min-height: 100vh;
+}
+
+.wrapperProfileView h1 {
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0.21px;
+    color: #2C3136;
+}
+
+.wrapperProfileView p {
+    margin: 0;
+    max-width: 1115px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+}
+
+.wrapperContent {
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+}
+
+.wrapperContent .wrapperBio {
+    display: flex;
+    gap: 40px;
+}
+
+.wrapperContent .wrapperBio .bioLeft p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #73777A;
+    margin-bottom: 14px;
+}
+
+.wrapperContent .wrapperBio .bioRight p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #2C3136;
+    margin-bottom: 14px;
+}
