@@ -45,7 +45,7 @@ const Header = () => {
                     </a>
                 </Link>
             </div>
-            <button type="button">Contact me</button>
+            <button type="button"><a href="whatsapp://send?text=Hello&phone=+6285733745088">Contact me</a></button>
         </div>
     )
 }
