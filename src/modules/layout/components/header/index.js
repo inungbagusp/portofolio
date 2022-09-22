@@ -2,6 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
+import MobileDrawer from '../../../common/drawer';
 import styles from './header.module.css';
 
 const Header = () => {
@@ -45,7 +46,10 @@ const Header = () => {
                     </a>
                 </Link>
             </div>
-            <button type="button"><a href="whatsapp://send?text=Hello&phone=+6285733745088">Contact me</a></button>
+            <button type="button" className={styles.buttonContactMe}>
+                <a href="https://api.whatsapp.com/send?phone=+6285733745088&amp;text=Halo" target="__blank">Contact me</a>
+            </button>
+            <div className={styles.drawer}><MobileDrawer /></div>
         </div>
     )
 }

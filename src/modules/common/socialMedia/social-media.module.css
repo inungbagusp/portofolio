@@ -15,6 +15,7 @@
 
 .wrapperSocialMedia .socialMedia:hover {
     background-color: #128FE1;
+    cursor: pointer;
 }
 
 .wrapperSocialMedia .socialMedia:hover svg path {

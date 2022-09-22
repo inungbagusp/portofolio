@@ -1,5 +1,11 @@
-import LayoutProfile from "./components/view"
+import LayoutProfile from './components/view';
+import Head from 'next/head';
 
 export default function Profile() {
-  return <LayoutProfile />
+  return (
+		<>
+			<Head><title>Profile</title></Head>
+			<LayoutProfile />
+		</>
+    );
 }

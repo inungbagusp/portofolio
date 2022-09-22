@@ -6,9 +6,9 @@ const Portofolio = () => {
     return (
         <div className={styles.wrapperPortofolio}>
             <div className={styles.wrapperHeaderPortofolio}>
-                <p>Our portofolio</p>
+                <p>My portofolio</p>
                 <div className={styles.wrapperTitlePortofolio}>
-                    <h1>Our latest cool project.</h1>
+                    <h1>My latest cool project.</h1>
                     <Link href='/experience' as='/experience'>
                         <a>
                             <span>Show all</span>
@@ -22,26 +22,26 @@ const Portofolio = () => {
             <div className={styles.wrapperContentPortofolio}>
                 <div className={styles.wrapperLeftContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/senheng.png" alt="senheng" />
-                        <h3>Senheng</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <img src="/img/senheng.webp" alt="senheng" />
+                        <a href="https://www.senheng.com.my/" target="__blank"><h3>Senheng Malaysia</h3></a>
+                        <p>Senheng is a e-commerce company that has 2 store views with the names senheng and senq. I contributed on the pwa side.</p>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bodypack.png" alt="bodypack" />
-                        <h3>BodyPack</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <img src="/img/bodypack.webp" alt="bodypack" />
+                        <a href="https://bodypack.co.id/" target="__blank"><h3>BodyPack</h3></a>
+                        <p>Bodypack is a project that uses Next JS as the framework and Magento as the BackEnd. I contributed on the pwa side.</p>
                     </div>
                 </div>
                 <div className={styles.wrapperRightContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/guardian.png" alt="guardian" />
-                        <h3>Guardian Indonesia</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <img src="/img/guardian.webp" alt="guardian" />
+                        <a href="https://guardianindonesia.co.id/" target="__blank"><h3>Guardian Indonesia</h3></a>
+                        <p>Guardian uses the pwa framework from magento called PWA Studio. I contributed in making some new features and website maintenance.</p>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bigi.png" alt="bigi" />
-                        <h3>Bigi.id</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <img src="/img/bigi.webp" alt="bigi" />
+                        <a href="https://bigi.id/" target="__blank"><h3>Bigi.id</h3></a>
+                        <p>Bigi is built with the magento framework and has not implemented PWA. I contribute as a Front-End developer.</p>
                     </div>
                 </div>
             </div>
@@ -50,11 +50,11 @@ const Portofolio = () => {
                     <h1>I love to create something simple and clean</h1>
                 </div>
                 <div className={styles.aboutMe}>
-                    <p>Seorang User Interface Designer, saat ini tinggal di kota Surakarta yang banyak sekali makanan enak. Suka melakukan eksplorasi design yang minimalis dan memiliki fungsionalitas yang baik.</p>
-                    <p>Bisa menghabiskan waktu berjam-jam setiap hari nya untuk melakukan eksplorasi design. Kalian dapat melihat beberapa eksplorasi design saya di Dribbble.</p>
-                    <p>Saya juga suka menulis di Medium, kebanyakan tulisan saya membahas tentang bagaimana memulai menjadi UI Designer, beberapa tips dasar untuk membuat UI Design lebih menarik, dan bisnis design.</p>
-                    <p>Aktif di Twitter membahas hal hal seputar industri design dan jika kamu punya pertanyaan jangan ragu untuk mention saya di twitter, pasti akan jadi obrolan yang menarik.</p>
-                    <p>Dan akhir akhir ini lagi hobi ngerakit gundam dan motret gundam. Kalian bisa melihat beberapa eksperiman motret gundam saya di sini Semoga kalian menikmati nya. Kalau kalian pengen tanya tanya tentang Gundam bisa langsung DM saya di Twitter, dengan senang hati bakal saya jawab.</p>
+                    <p>A developer who currently lives in Malang, East Java. I started studying informatics by pursuing the world of internet networks. I graduated from high school in the field of networking and then continued college also in the field of networking.</p>
+                    <p>I started to change my interest in becoming a developer because when I did an internship at Garuda Indonesia, I was required to be able to create an event website. with the demands, I began to learn little by little about the world of programming.</p>
+                    <p>After finishing my internship at Garuda Indonesia, I tried to start working at Icube as a magento front-end by relying on CSS skills and left my interest in the internet network because I think being a developer is more exciting and challenging.</p>
+                    <p>The programming world is not as simple as I imagined, our code must be clean, easy to understand, simple and structured. especially if we work as a team, we need to learn all of that and apply it.</p>
+                    <p>The programming world is also always evolving from time to time and there is a lot that I dont know. therefore I try not to stop to always follow developments and always learn new things about programming.</p>
                 </div>
             </div>
         </div>

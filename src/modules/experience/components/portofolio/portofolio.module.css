@@ -71,6 +71,10 @@
     max-width: 570px;
 }
 
+.wrapperContent:hover img {
+    transform: scale(1.1);
+}
+
 .wrapperContent img {
     width: 100%;
 }
