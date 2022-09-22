@@ -7,10 +7,8 @@ const ProfileView = () => {
         <Layout>
             <div className={styles.wrapperProfileView}>
                 <h1>About me.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <p>I am a person who is easy to get along with new people. I have a hobby of fishing, I have known fishing since I was little.
+                    I like fishing because fishing can train my patience and adrenaline if I catch a big fish.</p>
                 <div className={styles.wrapperContent}>
                     <img src="/img/profile.png" alt="profile" />
                     <div className={styles.wrapperBio}>

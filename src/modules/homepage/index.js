@@ -1,5 +1,11 @@
-import LayoutHomepage from "./components"
+import LayoutHomepage from './components';
+import Head from 'next/head';
 
 export default function HomePage() {
-  return <LayoutHomepage />
-}
+    return (
+		<>
+			<Head><title>Personal Web</title></Head>
+			<LayoutHomepage />
+		</>
+    );
+};

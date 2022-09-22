@@ -22,6 +22,10 @@
     gap: 56px;
 }
 
+.wrapperHeader .drawer {
+    display: none;
+}
+
 .wrapperHeader .midHeader .midHeaderItem {
     font-size: 16px;
     font-weight: 400;
@@ -61,4 +65,22 @@
 
 .wrapperHeader button:active {
     background-color: #094871;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapperHeader {
+        padding: 16px;
+    }
+
+    .wrapperHeader .midHeader {
+        display: none;
+    }
+
+    .wrapperHeader .buttonContactMe {
+        display: none;
+    }
+
+    .wrapperHeader .drawer {
+        display: block;
+    }
 }
