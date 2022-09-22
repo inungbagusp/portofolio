@@ -22,32 +22,40 @@ const Portofolio = () => {
             <div className={styles.wrapperContentPortofolio}>
                 <div className={styles.wrapperLeftContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/senheng.webp" alt="senheng" />
-                        <a href="https://www.senheng.com.my/" target="__blank"><h3>Senheng Malaysia</h3></a>
-                        <p>Senheng is a e-commerce company that has 2 store views with the names senheng and senq. I contributed on the pwa side.</p>
+                        <a href="https://www.senheng.com.my/" target="__blank">
+                            <img src="/img/senheng.webp" alt="senheng" />
+                            <h3>Senheng Malaysia</h3>
+                            <p>Senheng is a e-commerce company that has 2 store views with the names senheng and senq. I contributed on the pwa side.</p>
+                        </a>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bodypack.webp" alt="bodypack" />
-                        <a href="https://bodypack.co.id/" target="__blank"><h3>BodyPack</h3></a>
-                        <p>Bodypack is a project that uses Next JS as the framework and Magento as the BackEnd. I contributed on the pwa side.</p>
+                        <a href="https://bodypack.co.id/" target="__blank">
+                            <img src="/img/bodypack.webp" alt="bodypack" />
+                            <h3>BodyPack</h3>
+                            <p>Bodypack is a project that uses Next JS as the framework and Magento as the BackEnd. I contributed on the pwa side.</p>
+                        </a>
                     </div>
                 </div>
                 <div className={styles.wrapperRightContent}>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/guardian.webp" alt="guardian" />
-                        <a href="https://guardianindonesia.co.id/" target="__blank"><h3>Guardian Indonesia</h3></a>
-                        <p>Guardian uses the pwa framework from magento called PWA Studio. I contributed in making some new features and website maintenance.</p>
+                        <a href="https://guardianindonesia.co.id/" target="__blank">
+                            <img src="/img/guardian.webp" alt="guardian" />
+                            <h3>Guardian Indonesia</h3>
+                            <p>Guardian uses the pwa framework from magento called PWA Studio. I contributed in making some new features and website maintenance.</p>
+                        </a>
                     </div>
                     <div className={styles.wrapperContent}>
-                        <img src="/img/bigi.webp" alt="bigi" />
-                        <a href="https://bigi.id/" target="__blank"><h3>Bigi.id</h3></a>
-                        <p>Bigi is built with the magento framework and has not implemented PWA. I contribute as a Front-End developer.</p>
+                        <a href="https://bigi.id/" target="__blank">
+                            <img src="/img/bigi.webp" alt="bigi" />
+                            <h3>Bigi.id</h3>
+                            <p>Bigi is built with the magento framework and has not implemented PWA. I contribute as a Front-End developer.</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div className={styles.wrapperAboutMe}>
                 <div className={styles.title}>
-                    <h1>I love to create something simple and clean</h1>
+                    <h1>My journey to become a software developer.</h1>
                 </div>
                 <div className={styles.aboutMe}>
                     <p>A developer who currently lives in Malang, East Java. I started studying informatics by pursuing the world of internet networks. I graduated from high school in the field of networking and then continued college also in the field of networking.</p>
