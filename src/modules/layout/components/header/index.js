@@ -28,7 +28,9 @@ const Header = () => {
 
     return (
         <div className={styles.wrapperHeader} id='header'>
-            <Image img src="/img/logo.svg" alt="logo" width={52} height={32} />
+            <Link href="/" as="/">
+                <a><Image img src="/img/logo.svg" alt="logo" width={52} height={32} /></a>
+            </Link>
             <div className={styles.midHeader}>
                 <Link href="/" as="/">
                     <a>

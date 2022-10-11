@@ -51,3 +51,32 @@
     color: #2C3136;
     margin-bottom: 16px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .wrapperProfileView {
+        margin: 0 16px 40px 16px;
+        padding-top: 140px;
+        min-height: 100vh;
+    }
+
+    .wrapperProfileView h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    
+    .wrapperContent {
+        flex-direction: column;
+    }
+
+    .wrapperContent .wrapperBio {
+        gap: 16px;
+    }
+
+    .wrapperContent .wrapperBio .bioLeft p,
+    .wrapperContent .wrapperBio .bioRight p {
+        font-size: 12px;
+        line-height: 28px;
+    }
+
+}
