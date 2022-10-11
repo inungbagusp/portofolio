@@ -93,3 +93,40 @@
     color: #73777A;
     margin: 8px 0 0 0;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .wrapperPortofolio {
+        margin: 0 16px;
+        padding-top: 140px;
+    }
+
+    .wrapperHeaderPortofolio {
+        margin-bottom: 40px;
+    }
+
+    .wrapperHeaderPortofolio p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wrapperHeaderPortofolio h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .wrapperContentPortofolio {
+        flex-direction: column;
+        margin-bottom: 80px;
+        gap: 28px;
+    }
+
+    .wrapperContent h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wrapperContentPortofolio .wrapperLeftContent,
+    .wrapperContentPortofolio .wrapperRightContent{
+        gap: 28px;
+    }
+}
