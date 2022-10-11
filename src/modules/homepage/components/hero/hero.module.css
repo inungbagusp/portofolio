@@ -131,6 +131,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    .wrapperBackground .patternMid {
+        width: 100%;
+    }
+
     /* hero description */
     
     .wrapperHeroDescription {
