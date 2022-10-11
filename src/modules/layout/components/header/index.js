@@ -49,7 +49,11 @@ const Header = () => {
             <button type="button" className={styles.buttonContactMe}>
                 <a href="https://api.whatsapp.com/send?phone=+6285733745088&amp;text=Halo" target="__blank">Contact me</a>
             </button>
-            <div className={styles.drawer}><MobileDrawer /></div>
+            
+            {/* mobile header */}
+            <div className={styles.drawer}>
+                <MobileDrawer router={router} />
+            </div>
         </div>
     )
 }
