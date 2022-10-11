@@ -18,3 +18,7 @@ a {
   background-color: #FFFFFF;
   box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.13);
 }
+
+.MuiDrawer-paper {
+  width: 100%;
+}

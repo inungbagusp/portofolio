@@ -47,7 +47,7 @@
     margin: 0;
 }
 
-.wrapperHeader button {
+.wrapperHeader .buttonContactMe {
     min-width: 184px;
     border-radius: 4px;
     height: 40px;
@@ -59,7 +59,7 @@
     font-family: 'Poppins', sans-serif !important;
 }
 
-.wrapperHeader button:hover {
+.wrapperHeader .buttonContactMe:hover {
     background-color: #0E6BA9;
 }
 
@@ -70,6 +70,7 @@
 @media screen and (max-width: 768px) {
     .wrapperHeader {
         padding: 16px;
+        align-items: unset;
     }
 
     .wrapperHeader .midHeader {

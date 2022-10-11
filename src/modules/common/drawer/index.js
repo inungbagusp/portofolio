@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import IconButton from '@material-ui/core/IconButton';
-import DehazeIcon from '@material-ui/icons/Dehaze';
+import Image from 'next/image';
 import CloseIcon from '@material-ui/icons/Close';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import useStyles from './style';
@@ -22,7 +22,10 @@ const BurgerMenu = (props) => {
             </IconButton>
             <SwipeableDrawer anchor="right" open={open} onClose={() => setOpen(false)} onOpen={() => setOpen(true)}>
                 <div className={styles.sidebar}>
-                    <CloseIcon onClick={() => setOpen(false)} className={styles.closeIcon} />
+                    <div className="wrapper-header">
+                        <Image className="img-logo" src="/img/logo.svg" alt="logo" width={52} height={32} />
+                        <CloseIcon onClick={() => setOpen(false)} className={styles.closeIcon} />
+                    </div>
                     <Link href="/" as="/">
                         <a className={router.pathname === '/' ? 'burger-item active' : 'burger-item'}>Home</a>
                     </Link>
