@@ -119,3 +119,76 @@
     color: #73777A;
     margin: 0 0 40px 0;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .wrapperPortofolio {
+        margin: 80px 16px;
+    }
+
+    /* title */
+
+    .wrapperTitlePortofolio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .wrapperHeaderPortofolio {
+        margin-bottom: 40px;
+    }
+
+    .wrapperHeaderPortofolio p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .wrapperHeaderPortofolio h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .wrapperTitlePortofolio a {
+        font-size: 12px;
+        margin-left: auto;
+    }
+
+    .wrapperTitlePortofolio svg {
+        width: 20px;
+    }
+
+    /* content */
+
+    .wrapperContentPortofolio {
+        flex-direction: column;
+        margin-bottom: 80px;
+        gap: 28px;
+    }
+
+    .wrapperContent h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wrapperContentPortofolio .wrapperLeftContent,
+    .wrapperContentPortofolio .wrapperRightContent{
+        gap: 28px;
+    }
+
+    /* about me */
+
+    .wrapperAboutMe {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .wrapperAboutMe h1 {
+        font-size: 52px;
+        line-height: 68px;
+        width: 100%;
+    }
+    
+    .wrapperAboutMe p {
+        line-height: 28px;
+    }
+}
